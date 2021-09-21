@@ -10,11 +10,15 @@ body{
 
 header{
   height: 80px;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
-main{
-  background-color: red;
-  height: 100vh;
+nav ul{
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 40px;
 }
 
 nav ul li{
@@ -25,6 +29,7 @@ nav ul li{
   border: 1px solid grey;
   border-radius: 50%;
   text-align: center;
+  margin: 0 10px;
 }
 
 nav ul li a{
